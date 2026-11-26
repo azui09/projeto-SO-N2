@@ -1,0 +1,35 @@
+PROJETO 2 DE SO - COMO RODAR (3 passos)
+
+Voce NAO precisa criar nenhum arquivo de texto, nem compilar nada.
+O script gera sozinho o arquivo de 100 MB, mede e mostra o resultado.
+
+PASSO 1: descompacte a pasta proj2-so (zip) e abra um terminal DENTRO dela.
+  - Windows: abra a pasta, clique na barra de endereco, digite cmd e Enter.
+  - Mac/Linux: abra o Terminal e use  cd  ate a pasta.
+
+PASSO 2: rode o comando da SUA frente (um comando so):
+
+  Frente (pilar)                    Windows               Mac / Linux
+  --------------------------------  --------------------  ----------------------
+  Primeira medicao (M3)             rodar.bat basico      ./rodar.sh basico
+  Tamanho do arquivo (memoria)      rodar.bat tamanho     ./rodar.sh tamanho
+  Tamanho do buffer (CPU)           rodar.bat buffer      ./rodar.sh buffer
+  Numero de threads (concorrencia)  rodar.bat threads     ./rodar.sh threads
+  read vs mmap (persistencia)       rodar.bat leitura     ./rodar.sh leitura
+  Texto cifrado (seguranca)         rodar.bat cifra       ./rodar.sh cifra
+
+  (No Windows, "rodar.bat basico" tambem pode ser rodado com dois cliques.)
+  (No Mac, se der "permissao negada": chmod +x rodar.sh  e rode de novo.)
+
+PASSO 3: espere terminar. No fim aparece a tabela RESULTADO (pico de memoria em MB).
+  - Tire um print da tabela.
+  - Mande a pasta dados/ (o arquivo .csv dentro dela) pro grupo.
+  - A coluna que importa e delta_mb (quanto o texto custou de memoria).
+
+Dicas para a medicao ficar boa:
+  - Notebook na tomada e SEM outros programas abertos (navegador fechado).
+  - Nao mexa no computador enquanto o script roda.
+  - Se aparecer ERRO ou algo estranho, mande um print pro grupo.
+  - A frente "tamanho" usa um arquivo de 500 MB: precisa de uns 2 GB de RAM livre e 600 MB de disco.
+
+So medimos MEMORIA (pico de memoria). Tempo nao e metrica do projeto.
