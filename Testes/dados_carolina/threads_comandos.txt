@@ -1,0 +1,4 @@
+./medir texto_100.txt --estrutura lista --leitura read --buffer 65536 --threads 1
+./medir texto_100.txt --estrutura lista --leitura read --buffer 65536 --threads 2
+./medir texto_100.txt --estrutura lista --leitura read --buffer 65536 --threads 4
+(cada comando rodado varias vezes; saida bruta em threads.csv)
