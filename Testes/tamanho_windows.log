@@ -1,0 +1,7 @@
+
+.\medir.exe dados\texto_10.txt --estrutura array --leitura read --buffer 64K --threads 1
+.\medir.exe dados\texto_100.txt --estrutura array --leitura read --buffer 64K --threads 1
+.\medir.exe dados\texto_500.txt --estrutura array --leitura read --buffer 64K --threads 1
+.\medir.exe dados\texto_10.txt --estrutura lista --leitura read --buffer 64K --threads 1
+.\medir.exe dados\texto_100.txt --estrutura lista --leitura read --buffer 64K --threads 1
+.\medir.exe dados\texto_500.txt --estrutura lista --leitura read --buffer 64K --threads 1
