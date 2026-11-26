@@ -1,0 +1,4 @@
+./medir dados/texto_100.txt --estrutura array --leitura read --buffer 64K --threads 1
+./medir dados/texto_100.txt.enc --estrutura array --leitura read --buffer 64K --threads 1 --cifrado
+./medir dados/texto_100.txt --estrutura lista --leitura read --buffer 64K --threads 1
+./medir dados/texto_100.txt.enc --estrutura lista --leitura read --buffer 64K --threads 1 --cifrado
